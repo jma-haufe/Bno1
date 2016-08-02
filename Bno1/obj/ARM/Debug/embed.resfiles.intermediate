@@ -1,0 +1,13 @@
+App.xbf
+AppShell.xbf
+Controls\PageHeader.xbf
+Controls\TitlePathControl.xbf
+Styles\Styles.xbf
+UserControls\CameraCaptureControl.xbf
+Views\Advices.xbf
+Views\CreateAccountPage.xbf
+Views\QRPage.xbf
+Views\SingleAdvicePage.xbf
+Views\StartPage.xbf
+Views\TicketPage.xbf
+Views\WelcomePage.xbf

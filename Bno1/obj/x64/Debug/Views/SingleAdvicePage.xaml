@@ -1,0 +1,96 @@
+﻿<Page
+    x:Class="Bno1.Views.SingleAdvicePage"
+    xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+    xmlns:ds="using:transmate.DataService"
+    xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+    xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+    xmlns:controls="using:Bno1.Controls"
+    RequestedTheme="Light"
+    mc:Ignorable="d">
+
+    <Page.Resources>
+        <DataTemplate x:Key="checkListItemTemplate"                              >
+            <Grid>
+                <Grid.ColumnDefinitions>
+                    <ColumnDefinition Width="26" />
+                    <ColumnDefinition Width="*" />
+                </Grid.ColumnDefinitions>
+                <Grid.RowDefinitions>
+                    <RowDefinition />
+                    <RowDefinition />
+                </Grid.RowDefinitions>
+                <CheckBox Grid.Column="0" Grid.Row="0" IsChecked="{Binding IsChecked, Mode=TwoWay, UpdateSourceTrigger=PropertyChanged}" VerticalAlignment="Center" />
+                <TextBlock Grid.Column="1" Grid.Row="0" Text="{Binding Name}" VerticalAlignment="Center" TextWrapping="WrapWholeWords" />
+                <StackPanel Grid.Column="1" Grid.Row="1" Visibility="{Binding HasLink}" Orientation="Horizontal" Margin="20,0,0,0">
+                    <Viewbox Height="10">
+                        <SymbolIcon Symbol="Download" />
+                    </Viewbox>
+                    <HyperlinkButton x:ConnectionId='1' Content="{Binding Link}"                           FontSize="14" />
+                </StackPanel>
+            </Grid>
+        </DataTemplate>
+        <Style TargetType="TextBlock">
+            <Setter Property="TextWrapping" Value="WrapWholeWords" />
+        </Style>
+    </Page.Resources>
+
+    <ScrollViewer>
+        <StackPanel Background="{ThemeResource ApplicationPageBackgroundThemeBrush}">
+            <controls:PageHeader />
+            <controls:TitlePathControl x:ConnectionId='2' x:Name="titlePathBox"                           />
+            <StackPanel VerticalAlignment="Top">
+                <Button x:ConnectionId='3' x:Name="officeButton"                         >
+                    <TextBlock Text="{Binding OfficeName}" TextWrapping="WrapWholeWords" HorizontalAlignment="Stretch" Margin="0" />
+                </Button>
+                <StackPanel x:ConnectionId='4' x:Name="_officeGrid" Margin="20,4,20,4" Visibility="Visible">
+                    <TextBlock Text="{Binding OfficeSubCaption}" FontWeight="Bold" />
+                    <TextBlock Text="{Binding OfficeAddress}" Margin="0,0,0,16"/>
+                    <StackPanel Orientation="Horizontal" Margin="0,0,0,8">
+                        <SymbolIcon Symbol="Phone" Margin="8,0,8,0" />
+                        <TextBlock Text="{Binding OfficePhoneNumber}" />
+                    </StackPanel>
+                    <StackPanel Orientation="Horizontal" Margin="0,0,0,16">
+                        <SymbolIcon Symbol="Mail" Margin="8,0,8,0" />
+                        <TextBlock Text="{Binding OfficeEmail}" />
+                    </StackPanel>
+                    <StackPanel Orientation="Horizontal" Margin="0,0,0,8">
+                        <SymbolIcon Symbol="Clock" Margin="8,0,8,0" VerticalAlignment="Top" />
+                        <TextBlock Text="{Binding OfficeOpening}" />
+                    </StackPanel>
+                    <TextBlock Text="{Binding OfficeInfo}" />
+                </StackPanel>
+
+                <Button x:ConnectionId='5' x:Name="checkListButton" Content="Important Checklist"                         />
+                <StackPanel x:ConnectionId='6' x:Name="_itemGrid" Margin="20,4,20,4" Visibility="Collapsed">
+                    <TextBlock Text="{Binding CheckListHeader}" Foreground="#FF1EA8AF" FontWeight="Bold" />
+                    <ListView x:ConnectionId='13' ItemsSource="{Binding CheckListItems}" ItemTemplate="{StaticResource checkListItemTemplate}"                            />
+                    <TextBlock Text="{Binding CheckListFooter}" Foreground="Black" Margin="0,0,0,16" FontWeight="Bold" TextWrapping="WrapWholeWords" />
+                    <TextBlock Text="Administration fees:" FontWeight="Bold" />
+                    <TextBlock Text="{Binding FeeInfo}" />
+                </StackPanel>
+
+                <Button x:ConnectionId='7' x:Name="queueNumberButton" Content="Queue number Service" IsEnabled="{Binding EnableQueueNumberService}"                                  />
+                <StackPanel x:ConnectionId='8' x:Name="_lineGrid" Margin="20,4,20,4" Visibility="Collapsed">
+                    <TextBlock Text="Live status" />
+                    <ProgressBar x:ConnectionId='9' x:Name="_progress" Height="21" />
+                    <StackPanel Orientation="Horizontal" Margin="0,16,0,0">
+                        <TextBlock Text="{Binding ExpectedNumberInLineText}" Margin="0,0,16,0" />
+                        <TextBlock Text="{Binding ExpectedNumber}" FontWeight="Bold" />
+                    </StackPanel>
+                    <StackPanel Orientation="Horizontal" Margin="0,8,0,16">
+                        <TextBlock Text="Your expected appointment: " Margin="0,0,16,0" />
+                        <TextBlock Text="{Binding ExpectedTime}" FontWeight="Bold" />
+                    </StackPanel>
+
+                    <Button x:ConnectionId='10'                              >
+                        <TextBlock Text="Check estimated time of arrival" />
+                    </Button>
+                    <Button x:ConnectionId='11' x:Name="getNumberButton" Content="Request a number now" IsEnabled="false"                     Background="#FFFFCE00" Foreground="White" />
+                    <CheckBox x:ConnectionId='12' Content="{Binding ConfirmationText}" IsChecked="{Binding ConfirmationAccepted}"                                                                    />
+                </StackPanel>
+            </StackPanel>
+        </StackPanel>
+    </ScrollViewer>
+</Page>
+

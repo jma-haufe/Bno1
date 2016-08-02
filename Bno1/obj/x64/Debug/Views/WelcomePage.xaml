@@ -1,0 +1,36 @@
+﻿<Page
+    x:Class="Bno1.Views.WelcomePage"
+    xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+    xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+    xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+    xmlns:controls="using:Bno1.Controls"
+    mc:Ignorable="d">
+    
+    <ScrollViewer>
+        <StackPanel Background="{ThemeResource ApplicationPageBackgroundThemeBrush}">
+            <controls:PageHeader PageTitle="Welcome" Margin="0,0,0,15"/>
+            <TextBlock x:ConnectionId='1' Style="{ThemeResource TitleTextBlockStyle}" x:Name="textWelcome" Text="Welcome, Meysam!" HorizontalAlignment="Center" Margin="0" />
+            <TextBlock Style="{ThemeResource CaptionTextBlockStyle}" Text="Please select your personal settings" HorizontalAlignment="Center" Margin="0" FontSize="16" />
+            <Border Padding="6">
+                <Image Source="ms-appx:///Resources/user_profil.png" />
+            </Border>
+            <TextBlock Text="Select your city" Margin="20,0,0,0" />
+            <ComboBox>
+                <ComboBoxItem Content="Freiburg im Breisgau" />
+            </ComboBox>
+            <TextBlock Text="Select your language" Margin="20,0,0,0" />
+            <ComboBox>
+                <ComboBoxItem Content="Deutsch" />
+                <ComboBoxItem Content="English" />
+                <ComboBoxItem Content="Française" />
+                <ComboBoxItem Content="Espaníol" />
+            </ComboBox>
+            <TextBlock Text="To use all features you'll need an activation code" Margin="20,0,0,0" />
+            <TextBox x:ConnectionId='2' x:Name="textPhone" Text="" PlaceholderText="Your mobile number"/>
+            <Button x:ConnectionId='3' Content="Save settings and start"                        />
+            <Viewbox Height="200" />
+        </StackPanel>
+    </ScrollViewer>
+</Page>
+

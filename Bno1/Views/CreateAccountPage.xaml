@@ -1,0 +1,25 @@
+﻿<Page
+    x:Class="Bno1.Views.CreateAccountPage"
+    xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+    xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+    xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+    mc:Ignorable="d">
+
+    <ScrollViewer Background="{ThemeResource ApplicationPageBackgroundThemeBrush}" EntranceNavigationTransitionInfo.IsTargetElement="True">
+        <StackPanel>
+            <Border Background="#FF1EA8AF" Height="220" Margin="0,0,0,25">
+                <Image Source="ms-appx:///Resources/logo.big.png" Stretch="Uniform" Height="160"/>
+            </Border>
+            <TextBlock Style="{ThemeResource TitleTextBlockStyle}" Text="Create Account" HorizontalAlignment="Center" />
+            <TextBlock Style="{ThemeResource CaptionTextBlockStyle}" Text="For using B#1 you have to register" HorizontalAlignment="Center" Margin="0,0,0,10" FontSize="16" />
+            <TextBox x:Name="textName" PlaceholderText="Name" PreventKeyboardDisplayOnProgrammaticFocus="True" />
+            <TextBox x:Name="textMail" PlaceholderText="e-Mail" PreventKeyboardDisplayOnProgrammaticFocus="True" />
+            <PasswordBox x:Name="textPassword" PlaceholderText="Password" PreventKeyboardDisplayOnProgrammaticFocus="True" />
+            <Button Content="Create account" Click="OnCreateAccount" />
+            <TextBlock Text="Already have an account?" HorizontalAlignment="Center" />
+            <HyperlinkButton x:Name="signIn" Content="Sign in" Click="OnCreateAccount" HorizontalAlignment="Center" />
+            <Viewbox Height="200" />
+        </StackPanel>
+    </ScrollViewer>
+</Page>

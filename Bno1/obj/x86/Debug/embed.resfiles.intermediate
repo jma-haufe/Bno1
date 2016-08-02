@@ -1,0 +1,13 @@
+App.xbf
+AppShell.xbf
+Controls\PageHeader.xbf
+Styles\Styles.xbf
+Views\Advices.xbf
+Views\CreateAccountPage.xbf
+Views\Page1.xbf
+Views\Page2.xbf
+Views\SettingsPage.xbf
+Views\SingleAdvicePage.xbf
+Views\StartPage.xbf
+Views\TicketPage.xbf
+Views\WelcomePage.xbf

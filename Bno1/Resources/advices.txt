@@ -1,0 +1,149 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ArrayOfAdvice xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <Advice>
+    <Advices>
+      <Advice>
+        <Advices>
+          <Advice>
+            <Advices />
+            <AdviceId>00000000-0000-0000-0000-000000000010</AdviceId>
+            <Caption>Registering / changing residence</Caption>
+            <Text>sample text....</Text>
+            <Fees>initial issue of the residence permit: EUR 100 to 250 extension of the residence permit: EUR 80 For underage children the administration fees are reduced respectively by half.</Fees>
+            <OfficeId>00000000-0000-0000-0000-000000000001</OfficeId>
+            <DurationInMinutes>3</DurationInMinutes>
+            <CheckListItems>
+              <CheckListItem>
+                <Name>passport</Name>
+              </CheckListItem>
+              <CheckListItem>
+                <Name>biometric photograph</Name>
+              </CheckListItem>
+              <CheckListItem>
+                <Name>proof of adequate health insurance</Name>
+              </CheckListItem>
+              <CheckListItem>
+                <Name>completed and signed application form</Name>
+                <Link>Download</Link>
+              </CheckListItem>
+            </CheckListItems>
+          </Advice>
+          <Advice>
+            <Advices />
+            <AdviceId>00000000-0000-0000-0000-000000000011</AdviceId>
+            <Caption>Deregistering residence</Caption>
+            <Text>sample text....</Text>
+            <Fees>General Information:
+                  Registration, re-registration and deregistration of residence,
+                  EU citizens will be redirected right after registration
+                  and receive a �Freiz�gigkeitsbescheinigung�
+                  (freedom of movement certificate) there.</Fees>
+            <OfficeId>00000000-0000-0000-0000-000000000001</OfficeId>
+            <DurationInMinutes>5</DurationInMinutes>
+            <CheckListItems />
+          </Advice>
+         <Advice>
+            <Advices />
+            <AdviceId>00000000-0000-0000-0000-000000000011</AdviceId>
+            <Caption>Registration multiple residences</Caption>
+            <Text>sample text....</Text>
+            <Fees>initial issue of the residence permit: EUR 100 to 250 extension of the residence permit: EUR 80 For underage children the administration fees are reduced respectively by half.</Fees>
+            <OfficeId>00000000-0000-0000-0000-000000000001</OfficeId>
+            <DurationInMinutes>5</DurationInMinutes>
+            <CheckListItems />
+          </Advice>
+        </Advices>
+        <AdviceId>00000000-0000-0000-0000-000000000012</AdviceId>
+        <Caption>Housing</Caption>
+        <Fees>No fees.</Fees>
+        <OfficeId>00000000-0000-0000-0000-000000000001</OfficeId>
+        <DurationInMinutes>0</DurationInMinutes>
+        <CheckListItems />
+    </Advice>
+    <Advice>
+	    <Advices />
+        <AdviceId>00000000-0000-0000-0000-000000000012</AdviceId>
+        <Caption>Traffic / Public Transport</Caption>
+        <Fees>No fees.</Fees>
+        <OfficeId>00000000-0000-0000-0000-000000000001</OfficeId>
+        <DurationInMinutes>0</DurationInMinutes>
+        <CheckListItems />
+    </Advice>
+    <Advice>
+	    <Advices />
+        <AdviceId>00000000-0000-0000-0000-000000000012</AdviceId>
+        <Caption>Insurances / Taxes / Bank Account</Caption>
+        <Fees>No fees.</Fees>
+        <OfficeId>00000000-0000-0000-0000-000000000001</OfficeId>
+        <DurationInMinutes>0</DurationInMinutes>
+        <CheckListItems />
+    </Advice>
+    <Advice>
+	    <Advices />
+        <AdviceId>00000000-0000-0000-0000-000000000012</AdviceId>
+        <Caption>Health</Caption>
+        <Fees>No fees.</Fees>
+        <OfficeId>00000000-0000-0000-0000-000000000001</OfficeId>
+        <DurationInMinutes>0</DurationInMinutes>
+        <CheckListItems />
+    </Advice>
+    <Advice>
+	    <Advices />
+        <AdviceId>00000000-0000-0000-0000-000000000012</AdviceId>
+        <Caption>Leisure</Caption>
+        <Fees>No fees.</Fees>
+        <OfficeId>00000000-0000-0000-0000-000000000001</OfficeId>
+        <DurationInMinutes>0</DurationInMinutes>
+        <CheckListItems />
+      </Advice>
+    </Advices>
+    <AdviceId>00000000-0000-0000-0000-000000000013</AdviceId>
+    <Caption>Living &amp; Housing</Caption>
+    <Fees>No fees.</Fees>
+    <OfficeId>00000000-0000-0000-0000-000000000001</OfficeId>
+    <DurationInMinutes>3</DurationInMinutes>
+    <CheckListItems />
+  </Advice>
+
+
+
+
+  <Advice>
+    <Advices>
+      <Advice>
+        <Advices>
+          <Advice>
+            <Advices />
+            <AdviceId>00000000-0000-0000-0000-000000000014</AdviceId>
+            <Caption>Legal Advice</Caption>
+            <Text>sample text....</Text>
+            <Fees>Super expensive</Fees>
+            <OfficeId>00000000-0000-0000-0000-000000000008</OfficeId>
+            <DurationInMinutes>4</DurationInMinutes>
+            <CheckListItems>
+              <CheckListItem>
+                <Name>passport</Name>
+              </CheckListItem>
+              <CheckListItem>
+                <Name>biometric photograph</Name>
+                <Link>Download</Link>
+              </CheckListItem>
+            </CheckListItems>
+          </Advice>
+        </Advices>
+        <AdviceId>00000000-0000-0000-0000-000000000015</AdviceId>
+        <Caption>XXX</Caption>
+        <Fees>No fees.</Fees>
+        <OfficeId>00000000-0000-0000-0000-000000000008</OfficeId>
+        <DurationInMinutes>3</DurationInMinutes>
+        <CheckListItems />
+      </Advice>
+    </Advices>
+    <AdviceId>00000000-0000-0000-0000-000000000016</AdviceId>
+    <Caption>Legal Advice</Caption>
+    <Fees>No fees.</Fees>
+    <OfficeId>00000000-0000-0000-0000-000000000008</OfficeId>
+    <DurationInMinutes>2</DurationInMinutes>
+    <CheckListItems />
+  </Advice>
+</ArrayOfAdvice>

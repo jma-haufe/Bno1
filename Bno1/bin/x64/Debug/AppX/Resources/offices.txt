@@ -1,0 +1,286 @@
+﻿<?xml version="1.0" encoding="utf-16"?>
+<ArrayOfOffice xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <Office>
+    <OfficeId>00000000-0000-0000-0000-000000000001</OfficeId>
+    <Name>Office for Community Services and Information Processing</Name>
+    <Street>Basler Straße 2</Street>
+    <PLZ>79100</PLZ>
+    <City>Freiburg</City>
+    <Mail>buergeramt@stadt.freiburg.de</Mail>
+    <Phone>0761 / 201 - 0</Phone>
+    <OpeningHours>
+      <OpeningHours>
+        <DayOfWeek>1</DayOfWeek>
+        <StartOpen>9</StartOpen>
+        <EndOpen>12</EndOpen>
+      </OpeningHours>
+      <OpeningHours>
+        <DayOfWeek>2</DayOfWeek>
+        <StartOpen>9</StartOpen>
+        <EndOpen>12</EndOpen>
+      </OpeningHours>
+      <OpeningHours>
+        <DayOfWeek>3</DayOfWeek>
+        <StartOpen>9</StartOpen>
+        <EndOpen>12</EndOpen>
+      </OpeningHours>
+      <OpeningHours>
+        <DayOfWeek>3</DayOfWeek>
+        <StartOpen>15</StartOpen>
+        <EndOpen>18</EndOpen>
+      </OpeningHours>
+      <OpeningHours>
+        <DayOfWeek>4</DayOfWeek>
+        <StartOpen>9</StartOpen>
+        <EndOpen>12</EndOpen>
+      </OpeningHours>
+      <OpeningHours>
+        <DayOfWeek>5</DayOfWeek>
+        <StartOpen>9</StartOpen>
+        <EndOpen>12</EndOpen>
+      </OpeningHours>
+    </OpeningHours>
+  </Office>
+
+  <Office>
+    <OfficeId>00000000-0000-0000-0000-000000000002</OfficeId>
+    <Name>Registry Office</Name>
+    <Street>Rathausplatz 2-4</Street>
+    <PLZ>79098</PLZ>
+    <City>Freiburg</City>
+    <Mail>standesamt@stadt.freiburg.de</Mail>
+    <Phone>0761 / 201 - 3199</Phone>
+    <OpeningHours>
+      <OpeningHours>
+        <DayOfWeek>1</DayOfWeek>
+        <StartOpen>8</StartOpen>
+        <EndOpen>12</EndOpen>
+      </OpeningHours>
+      <OpeningHours>
+        <DayOfWeek>2</DayOfWeek>
+        <StartOpen>8</StartOpen>
+        <EndOpen>12</EndOpen>
+      </OpeningHours>
+      <OpeningHours>
+        <DayOfWeek>3</DayOfWeek>
+        <StartOpen>9</StartOpen>
+        <EndOpen>17</EndOpen>
+      </OpeningHours>
+        <OpeningHours>
+        <DayOfWeek>4</DayOfWeek>
+        <StartOpen>8</StartOpen>
+        <EndOpen>12</EndOpen>
+      </OpeningHours>
+      <OpeningHours>
+        <DayOfWeek>5</DayOfWeek>
+        <StartOpen>8</StartOpen>
+        <EndOpen>12</EndOpen>
+      </OpeningHours>
+    </OpeningHours>
+  </Office>
+
+
+
+  <Office>
+    <OfficeId>00000000-0000-0000-0000-000000000003</OfficeId>
+    <Name>Office for Children , Youth and Family (AKI)</Name>
+    <Street>Kaiser-Joseph-Straße 143</Street>
+    <PLZ>79098</PLZ>
+    <City>Freiburg</City>
+    <Mail>aki@stadt.freiburg.de</Mail>
+    <Phone>0761 / 201 - 8310</Phone>
+    <OpeningHours>
+      <OpeningHours>
+        <DayOfWeek>1</DayOfWeek>
+        <StartOpen>7</StartOpen>
+        <EndOpen>16</EndOpen>
+      </OpeningHours>
+      <OpeningHours>
+        <DayOfWeek>2</DayOfWeek>
+        <StartOpen>7</StartOpen>
+        <EndOpen>16</EndOpen>
+      </OpeningHours>
+      <OpeningHours>
+        <DayOfWeek>3</DayOfWeek>
+        <StartOpen>7</StartOpen>
+        <EndOpen>16</EndOpen>
+      </OpeningHours>
+      <OpeningHours>
+        <DayOfWeek>4</DayOfWeek>
+        <StartOpen>7</StartOpen>
+        <EndOpen>16</EndOpen>
+      </OpeningHours>
+      <OpeningHours>
+        <DayOfWeek>5</DayOfWeek>
+        <StartOpen>7</StartOpen>
+        <EndOpen>15</EndOpen>
+      </OpeningHours>
+    </OpeningHours>
+  </Office>
+
+
+  <Office>
+    <OfficeId>00000000-0000-0000-0000-000000000004</OfficeId>
+    <Name>Office of Social and seniors (ASS)</Name>
+    <Street>Fehrenbachallee 12</Street>
+    <PLZ>79106</PLZ>
+    <City>Freiburg</City>
+    <Mail>ASS_Empfang@stadt.freiburg.de</Mail>
+    <Phone>0761 / 201 - 3507</Phone>
+    <OpeningHours>
+      <OpeningHours>
+        <DayOfWeek>1</DayOfWeek>
+        <StartOpen>8</StartOpen>
+        <EndOpen>11</EndOpen>
+      </OpeningHours>
+      <OpeningHours>
+        <DayOfWeek>3</DayOfWeek>
+        <StartOpen>8</StartOpen>
+        <EndOpen>11</EndOpen>
+      </OpeningHours>
+        <OpeningHours>
+        <DayOfWeek>5</DayOfWeek>
+        <StartOpen>8</StartOpen>
+        <EndOpen>11</EndOpen>
+      </OpeningHours>
+    </OpeningHours>
+  </Office>
+
+
+<Office>
+    <OfficeId>00000000-0000-0000-0000-000000000005</OfficeId>
+    <Name>Counseling center construction and energy</Name>
+    <Street>Fehrenbachallee 12</Street>
+    <PLZ>79106</PLZ>
+    <City>Freiburg</City>
+    <Mail>bzbe@stadt.freiburg.de</Mail>
+    <Phone>0761 / 201 - 4390</Phone>
+    <OpeningHours>
+      <OpeningHours>
+        <DayOfWeek>1</DayOfWeek>
+        <StartOpen>8</StartOpen>
+        <EndOpen>12</EndOpen>
+      </OpeningHours>
+      <OpeningHours>
+        <DayOfWeek>2</DayOfWeek>
+        <StartOpen>8</StartOpen>
+        <EndOpen>12</EndOpen>
+      </OpeningHours>
+        <OpeningHours>
+        <DayOfWeek>3</DayOfWeek>
+        <StartOpen>8</StartOpen>
+        <EndOpen>12</EndOpen>
+      </OpeningHours>
+        <OpeningHours>
+        <DayOfWeek>4</DayOfWeek>
+        <StartOpen>8</StartOpen>
+        <EndOpen>18</EndOpen>
+      </OpeningHours>
+        <OpeningHours>
+        <DayOfWeek>5</DayOfWeek>
+        <StartOpen>8</StartOpen>
+        <EndOpen>12</EndOpen>
+      </OpeningHours>
+    </OpeningHours>
+  </Office>
+
+<Office>
+    <OfficeId>00000000-0000-0000-0000-000000000006</OfficeId>
+    <Name>Office of housing supply</Name>
+    <Street>Auf der Zinnen 1</Street>
+    <PLZ>79098</PLZ>
+    <City>Freiburg</City>
+    <Mail>bzbe@stadt.freiburg.de</Mail>
+    <Phone>0761 / 201 - 5301</Phone>
+    <OpeningHours>
+      <OpeningHours>
+        <DayOfWeek>1</DayOfWeek>
+        <StartOpen>8</StartOpen>
+        <EndOpen>11</EndOpen>
+      </OpeningHours>
+      <OpeningHours>
+        <DayOfWeek>3</DayOfWeek>
+        <StartOpen>8</StartOpen>
+        <EndOpen>11</EndOpen>
+      </OpeningHours>
+        <OpeningHours>
+        <DayOfWeek>4</DayOfWeek>
+        <StartOpen>8</StartOpen>
+        <EndOpen>11</EndOpen>
+      </OpeningHours>
+    </OpeningHours>
+  </Office>
+
+<Office>
+    <OfficeId>00000000-0000-0000-0000-000000000007</OfficeId>
+    <Name>Office for Migration and Integration</Name>
+    <Street>Jacobistraße 14</Street>
+    <PLZ>79104</PLZ>
+    <City>Freiburg</City>
+    <Mail>migration@stadt.freiburg.de</Mail>
+    <Phone>0761 / 201 - 3098</Phone>
+    <OpeningHours>
+      <OpeningHours>
+        <DayOfWeek>1</DayOfWeek>
+        <StartOpen>8</StartOpen>
+        <EndOpen>11</EndOpen>
+      </OpeningHours>
+      <OpeningHours>
+        <DayOfWeek>3</DayOfWeek>
+        <StartOpen>8</StartOpen>
+        <EndOpen>11</EndOpen>
+      </OpeningHours>
+        <OpeningHours>
+        <DayOfWeek>4</DayOfWeek>
+        <StartOpen>8</StartOpen>
+        <EndOpen>11</EndOpen>
+      </OpeningHours>
+    </OpeningHours>
+  </Office>
+
+
+<Office>
+    <OfficeId>00000000-0000-0000-0000-000000000008</OfficeId>
+    <Name>Jobcenter</Name>
+    <Street>Lehener Straße 77</Street>
+    <PLZ>79106</PLZ>
+    <City>Freiburg</City>
+    <Mail>jobcenter-freiburg@jobcenter-ge.de</Mail>
+    <Phone>0761 / 2 71 07 21</Phone>
+    <OpeningHours>
+      <OpeningHours>
+        <DayOfWeek>1</DayOfWeek>
+        <StartOpen>8</StartOpen>
+        <EndOpen>12</EndOpen>
+      </OpeningHours>
+      <OpeningHours>
+        <DayOfWeek>2</DayOfWeek>
+        <StartOpen>8</StartOpen>
+        <EndOpen>12</EndOpen>
+      </OpeningHours>
+        <OpeningHours>
+        <DayOfWeek>3</DayOfWeek>
+        <StartOpen>8</StartOpen>
+        <EndOpen>18</EndOpen>
+      </OpeningHours>
+        <OpeningHours>
+        <DayOfWeek>4</DayOfWeek>
+        <StartOpen>8</StartOpen>
+        <EndOpen>12</EndOpen>
+      </OpeningHours>    
+        <OpeningHours>
+        <DayOfWeek>5</DayOfWeek>
+        <StartOpen>8</StartOpen>
+        <EndOpen>12</EndOpen>
+      </OpeningHours>
+</OpeningHours>
+  </Office>
+
+
+
+
+
+
+
+
+</ArrayOfOffice>
